@@ -1,0 +1,10 @@
+.actor {
+    font-weight: bold;
+    flex-basis: 120px;
+    margin-bottom: -10px;
+}
+
+.actor span {
+    font-weight: normal;
+    color: gray;
+}

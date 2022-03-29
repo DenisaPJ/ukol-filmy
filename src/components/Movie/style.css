@@ -1,0 +1,128 @@
+.movie {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-basis: 600px;
+    min-width: 500px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    position: relative;
+    padding: 25px 25px 10px;
+    background-color: white;
+    align-items: stretch;
+}
+
+.title {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-content: stretch;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+
+.title h2 {
+    color: rgba(255, 98, 0, 0.844);
+    font-weight: 600;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: -8px;
+}
+
+.title img {
+    max-width: 50%;
+    max-height: 300px;
+    margin-right: 15px;
+}
+
+.rating {
+    left: -64px;
+    position: absolute;
+    top: 32px;
+    height: 24px;
+    width: 206px;
+    transform: rotate(-45deg);
+    background-color: rgb(255, 140, 0);
+    text-align: center;
+    color: white;
+    padding-bottom: 25px;
+}
+
+.rating span {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.details {
+    display: flex;
+    flex-flow: column;
+    align-items: stretch;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.details-header p {
+    font-weight: 700;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+
+.details-header span {
+    font-weight: 500;
+}
+
+.acting-header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.acting-header h3 {
+    color: rgba(255, 98, 0, 0.844);
+    margin-bottom: 0px;
+}
+
+.acting {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    gap: 5px;
+    align-items: center;
+    font-size: 14px;
+}
+
+.buy {
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+input {
+    border: 0.5px solid gray;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+button {
+    margin-top: 30px;
+    background-color: rgba(255, 98, 0, 0.844);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer;  
+}
+
+
